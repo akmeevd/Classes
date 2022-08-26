@@ -18,6 +18,10 @@ public class Book {
         return publishingYear;
     }
 
+    public String getAuthor() {
+        return author;
+    }
+
     public void setPublishingYear(int publishingYear) {
         this.publishingYear = publishingYear;
 
